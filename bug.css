@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly.  The expression inside `calc()` is invalid, causing the browser to ignore the calculation and potentially apply default values. Example: `width: calc(100% - 10px - invalidValue);` where `invalidValue` is not a valid CSS length unit or expression.
